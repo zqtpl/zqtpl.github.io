@@ -1,0 +1,65 @@
+@media (min-width: 480px) and (max-width: 767px) {
+
+.button{
+display:none;}
+.button1{
+display:none;}
+
+.back{
+	width:700px;
+	padding:1px;
+}
+
+.orig{
+	padding-top:180px;
+	
+}
+.dropdown1{
+	margin-left:24%;
+}
+.dropdown{
+	
+}
+
+.gallery1{
+	height:300px;
+}
+p{
+	padding-right:7%;
+	font-size:14px;
+}
+img{
+	height:200px;
+	width:auto;
+}
+h6{
+	margin-top:140px;
+}
+@media (orientation: landscape) {
+    
+
+    
+}
+    
+@media (orientation: portrait) {
+   
+
+}
+
+
+@media (orientation: landscape) {
+
+
+    
+}
+    
+@media (orientation: portrait) {
+
+
+    
+}
+    
+}
+
+
+}

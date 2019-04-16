@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>Вайтомо</title>
+  <script src="https://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+   <link rel="stylesheet" href="menu/style.css">
+      <link rel="stylesheet" href="style.css">
+	  <link rel="stylesheet" href="слайдер/style.css">
+	  <link rel="stylesheet" href="smartphone.css">
+	  <link rel="stylesheet" href="smalldevice.css">
+	  <link rel="stylesheet" href="tablet.css">
+   <link rel="stylesheet" href="laptop.css">
+	  
+<style>
+@font-face{
+font-family:Linetoline;
+src:url(14372.ttf);
+}
+body{
+background-color:#d2ff7c;
+}
+
+.first{
+padding:10px;
+max-width:1200px;
+margin:25px 10% 30px;
+position: absolute;
+border:5px double black;
+height: auto;
+width: 80%;
+background-color: #ffffff;
+border-radius: 20px;}
+
+ul#nav{
+font-family:Linetoline;
+list-style-type:none;
+letter-spacing:2px;
+align:center;
+padding:auto;
+font-size:20px;
+position: absolute;
+margin-left: 21%;
+}
+ul#nav li{
+display:inline;
+float:right;
+margin:10px 0 50px 0;
+padding:10px;
+}
+ul#nav li a{
+display:block;
+float:left;
+width:160px;
+height:90px;
+line-height:90px;
+border:5px double #d2ff7c;
+color:#27363d;
+border-radius: 20px;
+text-decoration:none;
+text-align:center;
+display:table-cell;
+
+}
+ul#nav li a:hover{
+background: linear-gradient(to top right, #d8e4ea, #d2ff7c);
+color:black;
+border:7px double white;}
+
+img{
+border-radius:20px;}
+h6{
+font-family:Linetoline;
+margin-top: 100px;
+text-align:center;
+font-size:50px;
+border:5px double #a9c9d8;
+}
+
+p{
+margin:20px 18% 40px;
+font-family:Courier New;
+font-weight: bold;
+font-size:20px;
+}
+.gallery{
+margin-top:90px;
+}
+
+hr{
+margin-top:80px;
+color:#e4eff4;}
+
+.mainmenubtn {
+    background-color:#d8e4ea;
+    color: black;
+    border: none;
+    cursor: pointer;
+	border:7px double white;
+    padding:20px;
+    margin-top:20px;
+	border-radius: 20px;
+}
+.dropdown1 {
+    position: absolute;
+    display: inline-block;
+	
+}
+.dropdown-child {
+    display: none;
+    background-color: white;
+    min-width: 150px;
+	margin-top:20px;
+}
+.dropdown-child a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown1:hover .dropdown-child {
+    display: block;
+}
+</style>
+</head>
+<body>
+<div class="first">
+<b><div class="button">
+<ul id="nav">
+<li><a href="contact.html">Контакты</a></li>
+<li><a href="index.html">Авторизация</a></li>
+<li><a href="text.html">Статьи</a></li>
+<li><a href="main.html">Главная</a></li>
+</ul></b></div>
+<div class="menu">
+<div class="dropdown1">
+  <button class="mainmenubtn">Меню</button>
+  <div class="dropdown-child">
+    <a href="main.html">Главная</a>
+    <a href="text.html">Статьи</a>
+    <a href="index.html">Авторизация</a>
+    <a href="contact.html">Контакты</a>
+  </div>
+</div>
+  </div>
+  <h6>Вайтомо - пещеры светлячков в Новой Зеландии</h6>
+<img class="gallery" src="вайтомо.jpg" height="533" width="800">
+<p>Новая Зеландия - прекрасная страна, гордящаяся своими живописными пейзажами. Однако 
+ее главные достопримечательности находятся не только на поверхности – она так же 
+прекрасна и под землей. Доказательством этому служит знаменитый район Вайтомо, лежащий 
+на одном их самых крупных островов государства. Он славится впечатляющими 
+известняковыми пещерами, которые поражают сами по себе, но еще более особенными их 
+делают многочисленные светлячки, которые выбрали эти подземные лабиринты в качестве 
+своего дома. Тысячи крошечных насекомых излучают фосфоресцирующий свет, создавая 
+сюрреалистические световые инсталляции.</p>
+<p>Покрывающие свод пещеры светлячки имеют свое название - Arachnocampa luminosa. Это 
+представители рода грибных комариков, область распространения которых сосредоточена 
+исключительно в Новой Зеландии. По мнению ученых, свое свечение они излучают 
+преимущественно от голода, причем, чем голоднее они, тем ярче их свет – так они 
+заманивают насекомых в свои ловушки. Другие исследователи убеждены, что светлячки 
+вполне способны питаться спорами грибов, спокойно обходясь без другой пищи.</p>
+<div class='slide' >
+    <input type="radio" name="slider2" id="slider2_1" checked="checked">
+    <label for="slider2_1"></label>
+    <div> <img src="статьи/21.jpg"></div>
+    <label for="slider2_2"></label>
+
+    <input type="radio" name="slider2" id="slider2_2">
+    <label for="slider2_2"></label>
+    <div><img src="статьи/22.jpg"></div>
+    <label for="slider2_3"></label>
+
+    <input type="radio" name="slider2" id="slider2_3">
+    <label for="slider2_3"></label>
+    <div><img src="статьи/23.jpg"></div>
+    <label for="slider2_4"></label>
+
+</div>
+<p>Пещерный комплекс Вайтомо (Waitomo Caves) включает в себя несколько пещер – Вайтомо
+, Арануи, Гарднерс Гат и Руакури, известных своими невероятными сталагмитами и 
+сталактитами, ну и, конечно же, большой колонией светящихся грибных комариков. 
+Огромное скопление светлячков вспыхивает тысячами ярких зелено-голубых точек, освещая 
+пещеру и создавая иллюзию звездного неба прямо в недрах новозеландской земли. 
+Крошечные создания имеют одну особенность – громкий звук или малейшее неосторожное 
+движение пугает насекомых, в результате чего мерцание исчезает и наступает полная 
+темнота.</p>
+ <p>Пещеры светлячков – популярное туристическое место, куда местные гиды ежедневно 
+ организовывают многочисленные экскурсии. В пиковый зимний сезон природную 
+ достопримечательность посещает в среднем около 100 туристов в час. Во время подземной
+ прогулки, кроме самого любования завораживающей иллюминацией во тьме, гостям 
+ рассказывают различные легенды и мифы о происхождении уникального места и появлении 
+ в нем удивительных живых существ. Туры осуществляются на лодках или на другом водном 
+ транспорте, поскольку доступных участков суши в пещерном комплексе Вайтомо нет – 
+ здесь все затоплено подземными водами. Кроме легкодоступных маршрутов, предлагаются и 
+ экстремальные спортивные состязания спелеологов в самых труднодоступных системах 
+ пещерного комплекса.</p>
+</div>
+</body>
+</html>

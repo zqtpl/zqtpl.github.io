@@ -1,0 +1,43 @@
+@media (min-width: 480px) and (max-width: 767px) {
+
+.button{
+display:none;}
+
+.orig{
+	display:none;
+}
+.dropdown {
+	margin-top:-10px;
+	z-index:9000909;
+}
+p{
+	padding-right:7%;
+	font-size:14px;
+}
+
+@media (orientation: landscape) {
+    
+
+    
+}
+    
+@media (orientation: portrait) {
+   
+
+}
+
+
+@media (orientation: landscape) {
+
+
+    
+}
+    
+@media (orientation: portrait) {
+
+
+    
+}
+    
+}
+

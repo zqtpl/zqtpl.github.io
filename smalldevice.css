@@ -1,0 +1,59 @@
+@media (max-width: 480px) {
+
+  .button{
+display:none;}
+
+.button1{
+display:none;}
+
+.back{
+	width:800px;
+	padding:1px;
+}
+
+.orig{
+	padding-top:180px;
+	
+}
+.dropdown1{
+	margin-left:18%;
+}
+
+.gallery1{
+	height:220px;
+}
+p{
+	padding-right:7%;
+	font-size:14px;
+}
+img{
+	height:200px;
+width:auto;}
+
+
+@media (orientation: landscape) {
+    
+    
+}
+    
+@media (orientation: portrait) {
+
+
+}
+
+    
+
+@media (orientation: landscape) {
+
+    
+}
+    
+@media (orientation: portrait) {
+
+ 
+}
+
+
+
+
+}

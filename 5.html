@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>Озеро Хиллер</title>
+  <script src="https://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+   <link rel="stylesheet" href="menu/style.css">
+      <link rel="stylesheet" href="style.css">
+	  <link rel="stylesheet" href="слайдер/style.css">
+	  <link rel="stylesheet" href="smartphone.css">
+	  <link rel="stylesheet" href="smalldevice.css">
+	  <link rel="stylesheet" href="tablet.css">
+   <link rel="stylesheet" href="laptop.css">
+	  
+<style>
+@font-face{
+font-family:Linetoline;
+src:url(14372.ttf);
+}
+body{
+background-color:#d8e4ea;
+}
+
+.first{
+padding:10px;
+max-width:1200px;
+margin:25px 10% 30px;
+position: absolute;
+border:5px double black;
+height: auto;
+width: 80%;
+background-color: #ffffff;
+border-radius: 20px;}
+
+ul#nav{
+font-family:Linetoline;
+list-style-type:none;
+letter-spacing:2px;
+align:center;
+padding:auto;
+font-size:20px;
+position: absolute;
+margin-left: 21%;
+}
+ul#nav li{
+display:inline;
+float:right;
+margin:10px 0 50px 0;
+padding:10px;
+}
+ul#nav li a{
+display:block;
+float:left;
+width:160px;
+height:90px;
+line-height:90px;
+border:5px double #d2ff7c;
+color:#27363d;
+border-radius: 20px;
+text-decoration:none;
+text-align:center;
+display:table-cell;
+
+}
+ul#nav li a:hover{
+background: linear-gradient(to top right, #d8e4ea, #d2ff7c);
+color:black;
+border:7px double white;}
+
+img{
+border-radius:20px;}
+
+p{
+margin:20px 18% 40px;
+font-family:Courier New;
+font-weight: bold;
+font-size:20px;
+}
+.gallery{
+margin-top:90px;
+}
+
+h6{
+margin-top:90px;}
+h6{
+font-family:Linetoline;
+margin-top: 90px;
+text-align:center;
+font-size:50px;
+border:5px double #a9c9d8;
+}
+
+.mainmenubtn {
+    background-color:#d8e4ea;
+    color: black;
+    border: none;
+    cursor: pointer;
+	border:7px double white;
+    padding:20px;
+    margin-top:20px;
+	border-radius: 20px;
+}
+.dropdown1 {
+    position: absolute;
+    display: inline-block;
+	
+}
+.dropdown-child {
+    display: none;
+    background-color: white;
+    min-width: 150px;
+	margin-top:20px;
+}
+.dropdown-child a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown1:hover .dropdown-child {
+    display: block;
+}
+</style>
+</head>
+<body>
+<div class="first">
+<b><div class="button">
+<ul id="nav">
+<li><a href="contact.html">Контакты</a></li>
+<li><a href="index.html">Авторизация</a></li>
+<li><a href="text.html">Статьи</a></li>
+<li><a href="main.html">Главная</a></li>
+</ul></b></div>
+<div class="menu">
+<div class="dropdown1">
+  <button class="mainmenubtn">Меню</button>
+  <div class="dropdown-child">
+    <a href="main.html">Главная</a>
+    <a href="text.html">Статьи</a>
+    <a href="index.html">Авторизация</a>
+    <a href="contact.html">Контакты</a>
+  </div>
+</div>
+  </div>
+
+  <h6>Озеро Хиллер, Австралия</h6>
+<img class="gallery" src="озеро.jpg" height="533" width="800">
+<p>Озеро Хиллер расположено на самом краю Срединного острова, входящего в состав архипелага, 
+протянувшегося на десятки километров вдоль южного побережья Западной Австралии. Со всех сторон водоём 
+окружают высокие вечнозелёные эвкалипты, которые резко контрастируют с розовой водой озера и лишь узкая 
+полоса земли, состоящая в основном из песчаных дюн, отделяет его от океана. </p>
+<p>Обнаружил необычное озеро британский мореплаватель Мэтью Флиндерс в 1802 году, решив остановиться на 
+этом островке по пути в Сидней. Путешественник был сильно удивлён розовым оттенкам природного водоёма. В 
+следующие несколько лет на Срединный остров заплывало множество китобоев и охотников на тюленей. 
+Некоторые из них предпочли обосноваться на острове, поэтому вскоре здесь появились первые поселения. В 
+начале XX века с берегов озера Хиллер началась добыча соли, но продлилась она всего 6 лет. После этого 
+об этом месте забыли на долгие года, так как практической пользы оно не представляло.
+</p>
+<div class='slide' >
+    <input type="radio" name="slider2" id="slider2_1" checked="checked">
+    <label for="slider2_1"></label>
+    <div> <img src="статьи/51.jpg"></div>
+    <label for="slider2_2"></label>
+
+    <input type="radio" name="slider2" id="slider2_2">
+    <label for="slider2_2"></label>
+    <div><img src="статьи/52.jpg"></div>
+    <label for="slider2_3"></label>
+
+    <input type="radio" name="slider2" id="slider2_3">
+    <label for="slider2_3"></label>
+    <div><img src="статьи/53.jpg"></div>
+    <label for="slider2_4"></label>
+
+</div>
+<p>Озеро мелководно, длина его составляет около 600 м, ширина 250 м. В зависимости от сезона оттенок 
+воды может несколько меняться от более яркого до более темного, кораллово-бордового цвета. В озере 
+Хиллер можно плавать, оно не представляет никакой опасности.
+
+Вода в нем чрезвычайно соленая: уровень содержания соли в ней в несколько раз превышает уровень солености
+ океанских вод у побережья Австралии. Именно поэтому в начале XX века на озере даже какое-то время 
+ добывали соль.</p>
+ <p>В мире существует несколько озер с похожим цветом воды, но в отличие от озера Хиллер в этих озерах 
+ ученым удалось точно установить причину розового цвета. «Виновником» оказался особый вид 
+ микроскопических водорослей — Дуналиелла солоноводная. Но в озере Хиллер с его каменистым и гладким 
+ дном эти водоросли не живут.
+
+Также выдвигалась идея, что ответственными за окрашивание воды могут быть особые виды бактерий или 
+микроорганизмы, но какие именно — ученым установить не удалось.
+</p>
+</div>
+</body>
+</html>
