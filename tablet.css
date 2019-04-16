@@ -22,6 +22,11 @@ display:none;}
 .gallery1{
 	height:220px;
 }
+
+.slide1  input + label{
+	margin-top:108px;
+}
+
 p{
 	padding-right:7%;
 	padding-top:54px;
