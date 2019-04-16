@@ -13,11 +13,11 @@ display:none;}
 }
 
 .orig{
-	padding-top:180px;
-	
+margin-left:25%;
 }
 .dropdown1{
 	margin-left:30%;
+	z-index:9999999;
 }
 .gallery1{
 	height:220px;

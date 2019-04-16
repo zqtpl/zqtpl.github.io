@@ -11,15 +11,12 @@ display:none;}
 }
 
 .orig{
-	padding-top:180px;
-	
+display:none;
 }
 .dropdown1{
 	margin-left:24%;
 }
-.dropdown{
-	
-}
+
 
 .gallery1{
 	height:300px;
@@ -34,6 +31,12 @@ img{
 }
 h6{
 	margin-top:140px;
+}
+video{
+	margin-left:0;
+}
+audio{
+	
 }
 @media (orientation: landscape) {
     
