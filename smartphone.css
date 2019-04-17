@@ -2,6 +2,7 @@
 
 .button{
 display:none;}
+
 .button1{
 display:none;}
 
@@ -35,9 +36,9 @@ h6{
 video{
 	margin-left:0;
 }
-audio{
-	
-}
+gallery{
+height:140px;}
+
 @media (orientation: landscape) {
     
 
