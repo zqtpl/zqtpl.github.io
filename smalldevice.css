@@ -1,6 +1,6 @@
 @media (max-width: 480px) {
 
-  .button{
+ .button{
 display:none;}
 
 .button1{
@@ -20,14 +20,16 @@ display:none;
 
 .gallery1{
 	height:220px;
+	width:auto;
 }
+
 p{
 	padding-right:7%;
 	font-size:14px;
 }
 img{
-	height:200px;
-width:auto;}
+height:200px;
+width:auto}
 
 .slide1  input + label{
 	margin-bottom:80%;
@@ -43,7 +45,13 @@ margin-top:2%;
 position:relative;
 }
 h6{
-	margin-top:130px;
+margin-top:130px;
+}
+caption{
+margin-top:100px;
+}
+.cont{
+line-height:1;
 }
 @media (orientation: landscape) {
     
