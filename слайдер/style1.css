@@ -1,11 +1,4 @@
-    .slide1 {
-        width: auto;
-        height: 300px;
-        position: relative;
-        text-align: center;
-		padding-top:40px;
-		padding-bottom:0;
-    }
+  
 	.slide1  input {
         display: none;
     }

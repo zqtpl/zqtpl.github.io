@@ -36,8 +36,9 @@ p{
 	font-size:14px;
 }
 img{
-	height:200px;
+	height:300px;
 	width:auto;
+	padding-bottom:-40px;
 }
 h6{
 	margin-top:140px;

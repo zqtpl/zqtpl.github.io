@@ -29,4 +29,8 @@ audio{
 	margin-bottom:13%;
 }
 caption{margin-top:-40px;}
+
+img{
+	height:400px;
+width:auto;}
 }
