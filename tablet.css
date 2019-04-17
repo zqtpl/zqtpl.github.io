@@ -7,9 +7,21 @@
 .button1{
 display:none;}
 
+.login{
+	display:none;	
+}
+
 .back{
 	width:700px;
 	padding:1px;
+}
+
+.first{	
+	margin:25px 15% 30px;
+}
+
+.one{
+	margin:25px 15% 30px;
 }
 
 .orig{
@@ -35,5 +47,6 @@ p{
 img{
 	height:400px;
 width:auto;}
-
 }
+.cont{
+margin-top:150px;}

@@ -10,6 +10,17 @@ display:none;}
 	width:800px;
 	padding:1px;
 }
+.login{
+	display:none;	
+}
+
+.first{	
+	margin:25px 15% 30px;
+}
+
+.one{
+	margin:25px 15% 30px;
+}
 
 .orig{
 display:none;

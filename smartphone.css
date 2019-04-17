@@ -10,17 +10,26 @@ display:none;}
 	width:700px;
 	padding:1px;
 }
-
+.login{
+	display:none;	
+}
 .orig{
 display:none;
 }
 .dropdown1{
 	margin-left:24%;
 }
+.first{	
+	margin:25px 15% 30px;
+}
 
+.one{
+	margin:25px 15% 30px;
+}
 
 .gallery1{
-	height:300px;
+	height:250px;
+	width:auto;
 }
 p{
 	padding-right:7%;

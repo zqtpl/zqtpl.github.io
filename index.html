@@ -36,11 +36,11 @@ vlink:black;}
 .one{
 padding:10px;
 max-width:1200px;
-margin:25px 10% 30px;
+margin:25px 25% 30px 5%;
 position: absolute;
 border:5px double black;
 height: auto;
-width: 80%;
+width: 70%;
 background-color: #ffffff;
 border-radius: 20px;}
 		
@@ -95,7 +95,7 @@ align:center;
 padding:auto;
 font-size:20px;
 position: absolute;
-margin-left: 21%;
+margin-left: 29%;
 }
 ul#nav li{
 display:inline;
@@ -152,6 +152,48 @@ border:7px double white;
 .dropdown1:hover .dropdown-child {
     display: block;
 }
+
+
+
+.login{
+position:absolute;
+margin:30px 0 0 78%;
+width:240px;
+text-indent:20px;
+height:auto;
+padding:7px;
+border-radius:10px;
+line-height:2;
+text-align:left;
+background-color:white;
+border:5px double black;
+}
+h5{
+font-family:Linetoline;
+font-size:25px;
+letter-spacing:2px;
+}
+label{
+font-family:Courier New;
+font-size:20px;
+line-height:1.5;
+font-weight:bold
+}
+.send{
+background-color:#e4eff4;
+height:40px;
+font-family:Courier New;
+width:100px;
+margin-top:15px;
+font-weight:bold
+}
+
+.new{
+font-family:Courier New;
+font-size:20px;
+line-height:1.5;
+font-weight:bold
+}
 </style>
 </head>
 
@@ -160,7 +202,6 @@ border:7px double white;
 <div class="button1"><b>
 	<ul id="nav">
 <li><a href="contact.html">Контакты</a></li>
-<li><a href="main.html">Авторизация</a></li>
 <li><a href="text.html">Статьи</a></li>
 <li><a href="index.html">Главная</a></li>
 </ul></b></div>
@@ -171,7 +212,7 @@ border:7px double white;
   <div class="dropdown-child">
     <a href="index.html">Главная</a>
     <a href="text.html">Статьи</a>
-    <a href="main.html">Авторизация</a>
+    <a href="new.html" class="sign">Авторизация</a>
     <a href="contact.html">Контакты</a>
   </div>
 </div></div>
@@ -181,10 +222,7 @@ border:7px double white;
     <script src="menu/js/index.js"></script>
 
 <hr class="hr"></hr>
-<div class="first">
- </div>
- <div class="left">
- </div>
+
 
 <img src="фон4.jpg" class="back" height="215" width="653">
 
@@ -198,5 +236,14 @@ border:7px double white;
 
 </button>
 </div>
+<div class="login">
+<h5>Регистрация</h5>
+<label for="username">Имя пользователя</label>
+<input type="text"id="username">
+<label for="password">Пароль</label>
+<input id="password"type="password">
+<p class="new"><a href="new.html">Я новый пользователь</a></p>
+<input class="send" type="submit" value="Отправить">
+<div>
 </body>
 </html> 
