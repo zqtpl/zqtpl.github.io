@@ -5,13 +5,10 @@
 }
 
 .mainmenubtn{
-	display:none;
+display:none;
 }
 ul#nav{
-
 font-size:10px;
-
-
 }
 .button{
 	margin-top:-30px;
@@ -31,4 +28,5 @@ video{
 audio{
 	margin-bottom:13%;
 }
+caption{margin-top:-40px;}
 }
