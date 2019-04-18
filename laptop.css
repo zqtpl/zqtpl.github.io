@@ -31,6 +31,9 @@ audio{
 caption{margin-top:-40px;}
 
 img{
-	height:400px;
+height:400px;
 width:auto;}
+
+.login{
+padding-right:80px;}
 }
