@@ -1,0 +1,135 @@
+@font-face{
+font-family:Linetoline;
+src:url(14372.ttf);
+}
+
+body{
+background-color:#d2ff7c;}
+
+h3{
+font-family:Linetoline;
+font-size:42px;
+letter-spacing:2px;
+margin-left:2%;
+margin-top:170px;
+position: absolute;
+}
+
+.first{
+background-color:#e4eff4;
+padding:10px;
+max-width:1200px;
+margin:25px 20% 30px;
+position: absolute;
+border:5px double black;
+width:60%;
+z-index:-900;
+height:auto;
+border-radius: 20px;
+}
+
+.cont{
+margin-left:2%;
+margin-top:240px;
+line-height:2;
+font-family:Courier New;
+font-size:19px;
+position: absolute;
+z-index:90990;}
+
+hr{
+margin-top:190px;
+border:dashed;
+color:black;
+position: absolute;
+z-index:9999999;
+}
+
+.orig{
+width:40%;
+height:auto;
+position: absolute;
+margin-left:55%;
+margin-top:170px;
+padding-bottom:40px;
+}
+
+ul#nav{
+font-family:Linetoline;
+list-style-type:none;
+letter-spacing:2px;
+align:center;
+padding:auto;
+font-size:20px;
+position: absolute;
+margin-left: 2%;
+}
+ul#nav li{
+display:inline;
+float:right;
+margin:10px 0 50px 0;
+padding:10px;
+}
+ul#nav li a{
+display:block;
+float:left;
+width:160px;
+height:70px;
+line-height:70px;
+border:5px double #d2ff7c;
+background-color:white;
+color:#27363d;
+border-radius: 20px;
+text-decoration:none;
+text-align:center;
+display:table-cell;
+}
+ul#nav li a:hover{
+background: linear-gradient(to top right, #d8e4ea, #d2ff7c);
+color:black;
+border:7px double white;
+}
+
+.mainmenubtn {
+    background-color:#d8e4ea;
+    color: black;
+    border: none;
+    cursor: pointer;
+	border:7px double white;
+    padding:20px;
+    margin-top:20px;
+	border-radius: 20px;
+}
+.dropdown{
+    position: absolute;
+    display: inline-block;
+	z-index:990999;
+}
+.dropdown-child {
+    display: none;
+    background-color: white;
+    min-width: 150px;
+	margin-top:20px;
+	z-index:99999999;
+}
+.dropdown-child a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+table{
+margin-top:450px;
+margin-left:2%;
+font-family:Courier New;
+font-size:19px;
+
+}
+caption{
+text-align:left;
+line-height:2;
+}
